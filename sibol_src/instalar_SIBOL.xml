@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<!-- 
+	Fichero de generación del paquete de instalación de SIBOL
+-->
+
+<installation version="1.0">
+    <info>
+        <appname>SIBOL</appname>
+        <appversion>1.0</appversion>
+        <!--
+		<authors>
+            <author name="ODEI" email="info@odei.es"/>
+        </authors>
+        <url>http://www.odei.es/</url>
+		-->
+		<javaversion>1.5</javaversion>
+    </info>
+    
+    <guiprefs width="800" height="600" resizable="yes"/>
+    
+    <locale>
+        <langpack iso3="spa"/>
+    </locale>
+	
+    <resources>
+		<!--
+        <res id="LicencePanel.licence" src="Licence.txt"/>
+        <res id="InfoPanel.info" src="Readme.txt"/>
+		-->
+		<res id="Installer.image" src="imagen_sibol_instalador.jpg"/>
+		<res id="shortcutSpec.xml" src="shortcuts_specification.xml"/>
+	</resources>
+
+	<native type="izpack" name="ShellLink.dll"/>
+
+	<variables>
+		<variable name="DesktopShortcutCheckboxEnabled" value="true"/>
+	</variables>
+	
+	<panels>
+        <panel classname="HelloPanel"/>
+        <!--
+		<panel classname="InfoPanel"/>
+        <panel classname="LicencePanel"/>
+		-->
+        <panel classname="TargetPanel"/> 
+        <!-- 
+		<panel classname="PacksPanel"/>
+		-->
+        <panel classname="InstallPanel"/>
+        <panel classname="ShortcutPanel"/>
+		<panel classname="FinishPanel"/>
+    </panels>
+    
+    <packs>
+        <pack name="SIBOL" required="yes">
+            <description>Aplicación de Boletines de Instalaciones Eléctricas</description>
+            <file src="bd/inicial/sgie_data.properties" targetdir="$INSTALL_PATH/bd"/>
+			<file src="bd/inicial/sgie_data.script" targetdir="$INSTALL_PATH/bd"/>
+			<file src="bd/inicial/expedientes.xsd" targetdir="$INSTALL_PATH/bd"/>
+            <fileset dir="plantillas" targetdir="$INSTALL_PATH/plantillas"/>
+			<file src="dist/lib" targetdir="$INSTALL_PATH"/>
+			<file src="dist/SIBOL.jar" targetdir="$INSTALL_PATH"/>
+			<file src="dist/SIBOL.exe" targetdir="$INSTALL_PATH"/>
+			<file src="Manual Usuario SIBOL.pdf" targetdir="$INSTALL_PATH"/>
+			<file src="sibol.ico" targetdir="$INSTALL_PATH"/>
+			<file src="desinstalar.ico" targetdir="$INSTALL_PATH"/>
+			<fileset dir="jre" targetdir="$INSTALL_PATH/jre"/>
+        </pack>
+    </packs>
+    
+</installation>

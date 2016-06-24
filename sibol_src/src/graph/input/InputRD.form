@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMousePressed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabelReguladorTiempo2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTxtReguladorTiempo2" min="-2" pref="75" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelReferencia" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelSensibilidad" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelReguladorTiempo1" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jTxtSensibilidad" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jTxtReguladorTiempo1" alignment="0" pref="75" max="32767" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelTipoUnidad" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jTextFieldReferencia" pref="148" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Component id="jBtnAceptar" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtSensibilidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelTipoUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelSensibilidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelReguladorTiempo1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtReguladorTiempo1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelReguladorTiempo2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtReguladorTiempo2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelSensibilidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sensibilidad"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtSensibilidad">
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReferencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Referencia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldReferencia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTipoUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReguladorTiempo1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regulador de Tiempo 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtReguladorTiempo1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReguladorTiempo2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Regulador de Tiempo 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtReguladorTiempo2">
+    </Component>
+  </SubComponents>
+</Form>

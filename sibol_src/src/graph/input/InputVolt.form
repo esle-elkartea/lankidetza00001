@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMousePressed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jBtnAceptar" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelDescripcion3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelDescripcion2" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelDescripcion1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelReferencia" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jTextFieldDescripcion3" alignment="1" pref="121" max="32767" attributes="0"/>
+                          <Component id="jTextFieldDescripcion2" alignment="1" pref="121" max="32767" attributes="0"/>
+                          <Component id="jTextFieldDescripcion1" alignment="1" pref="121" max="32767" attributes="0"/>
+                          <Component id="jTextFieldReferencia" alignment="0" pref="121" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelDescripcion1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldDescripcion1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldDescripcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelDescripcion2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldDescripcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelDescripcion3" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelDescripcion1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descripci&#xf3;n 1"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReferencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Referencia"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldReferencia">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDescripcion1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDescripcion2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldDescripcion3">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDescripcion2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descripci&#xf3;n 2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelDescripcion3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Descripci&#xf3;n 3"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

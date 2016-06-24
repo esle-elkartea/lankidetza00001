@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.4" maxVersion="1.4" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Cursor predeterminado"/>
+    </Property>
+    <Property name="iconImage" type="java.awt.Image" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+      <Connection code="(new ImageIcon(getClass().getResource(&quot;/resources/icons/sibol.gif&quot;))).getImage()" type="code"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel5" min="-2" pref="185" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="jLabel6" pref="236" max="32767" attributes="1"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
+                          <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="1"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel3" min="-2" pref="43" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" pref="48" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Component id="jBtnAceptar" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" alignment="1" min="-2" pref="474" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="439" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="1">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="resources/config/config.properties" key="TITULO" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="versi&#xf3;n"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.i18n.form.FormI18nStringEditor">
+          <ResourceString bundle="resources/config/config.properties" key="VERSION" replaceFormat="java.util.ResourceBundle.getBundle(&quot;{bundleNameSlashes}&quot;).getString(&quot;{key}&quot;)"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/logo_sibol.png"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextPane" name="jTextPaneCreditos">
+          <Properties>
+            <Property name="contentType" type="java.lang.String" value="text/html"/>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="text" type="java.lang.String" value="&lt;html&gt;&#xd;&#xa;&#xa;&lt;h1&gt;CR&#xc9;DITOS&lt;/h1&gt;&#xa;&#xa;&lt;b&gt;Dise&#xf1;o y Coordinaci&#xf3;n de proyecto:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&#xa;Jos&#xe9; Antonio Bustinza&lt;br&gt;&#xa;&lt;i&gt;Ingeniero T&#xe9;cnico en Electricidad&lt;/i&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Programaci&#xf3;n:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&#xa;Javier San Jos&#xe9;&lt;br&gt;&#xa;&lt;i&gt;Ingeniero T&#xe9;cnico Industrial&lt;/i&gt;&lt;br&gt;&#xa;&lt;i&gt;Jefe de Proyectos &#x2013; ODEI, S.A.&lt;/i&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Dise&#xf1;o Gr&#xe1;fico y Soporte Inform&#xe1;tico:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&#xa;M&#xaa; Luisa Mu&#xf1;oz Riaza&lt;br&gt;&#xa;&lt;i&gt;Dise&#xf1;adora Gr&#xe1;fica &#x2013; RIAZA ESTUDIO T&#xc9;CNICO, S.C.&lt;/i&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Colaboraci&#xf3;n T&#xe9;cnica:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;&#xa;Gustavo Adolfo Mart&#xed;n Rodr&#xed;guez&lt;br&gt;&#xa;&lt;i&gt;Ingeniero T&#xe9;cnico e Ingeniero Industrial &#x2013; TALLERES EL&#xc9;CTRICOS JOLMA, S.L.&lt;/i&gt;&#xa;&lt;/li&gt;&#xa;&lt;li&gt;&#xa;Alejandro Nieto Arroyo&lt;br&gt;&#xa;&lt;i&gt;Ingeniero T&#xe9;cnico en Electricidad &#x2013; ELECTRICIDAD FEMAR, S.L.&lt;/i&gt;&#xa;&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Empresas Participantes:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;ODEI, S.A.&lt;/li&gt;&#xa;&lt;li&gt;TALLERES EL&#xc9;CTRICOS JOLMA, S.L.&lt;/li&gt;&#xa;&lt;li&gt;ELECTRICIDAD DEL VALLE AGUAYO, S.A.&lt;/li&gt;&#xa;&lt;li&gt;ELECTRICIDAD FEMAR, S.L.&lt;/li&gt;&#xa;&lt;li&gt;ESAN SERVICIOS EMPRESARIALES, S.L.&lt;/li&gt;&#xa;&lt;li&gt;MONTAJES EL&#xc9;CTRIOS ELCA, S.A.&lt;/li&gt;&#xa;&lt;li&gt;MEDELNOR, S.L.&lt;/li&gt;&#xa;&lt;li&gt;ELECTROT&#xc9;CNICA DE URBINA, S.A.&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Agradecimientos:&lt;/b&gt;&lt;br&gt;&#xa;&lt;ul&gt;&#xa;&lt;li&gt;SEA-EMPRESARIOS ALAVESES&lt;/li&gt;&#xa;&lt;li&gt;ASOCIACI&#xd3;N DE INSTALADORES EL&#xc9;CTRICOS DE &#xc1;LAVA&lt;/li&gt;&#xa;&lt;li&gt;FEDERACI&#xd3;N DE INSTALADORES DE EUSKADI&lt;/li&gt;&#xa;&lt;li&gt;EJIE - SOCIEDAD INFORM&#xc1;TICA DEL GOBIERNO VASCO&lt;/li&gt;&#xa;&lt;/ul&gt;&#xa;&#xa;&lt;b&gt;Menci&#xf3;n Especial:&lt;/b&gt;&lt;br&gt;&#xa;Este proyecto est&#xe1; financiado por mediaci&#xf3;n de la SPRI.&#xa;&#xa;&lt;/html&gt;&#xd;&#xa;"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/spri.gif"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/federacion_instaladores.gif"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/sea.gif"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/instagi.gif"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/resources/icons/aeie.gif"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

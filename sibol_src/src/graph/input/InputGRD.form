@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                      <Component id="jLabelReferencia" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jTextFieldReferencia" pref="145" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelNumeroElectrodos" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelLineaPrincipal" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelLineaEnlace" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelOhmios" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelTipo" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jTxtLineaEnlace" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="jTxtNumeroElectrodos" alignment="0" max="32767" attributes="1"/>
+                                      <Component id="jTxtLineaPrincipal" alignment="0" pref="75" max="32767" attributes="1"/>
+                                  </Group>
+                                  <Component id="jTxtOhmios" alignment="0" min="-2" pref="75" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabelLineaEnlaceUnidad" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelOhmiosUnidad" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabelLineaPrincipalUnidad" min="-2" max="-2" attributes="1"/>
+                              </Group>
+                          </Group>
+                          <Component id="jComboBoxTipo" min="-2" max="-2" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="162" max="32767" attributes="0"/>
+                      <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTextFieldReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jComboBoxTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelTipo" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelNumeroElectrodos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtNumeroElectrodos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtLineaPrincipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelLineaPrincipal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelLineaPrincipalUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtLineaEnlace" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelLineaEnlace" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelLineaEnlaceUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jTxtOhmios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelOhmios" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelOhmiosUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelTipo">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtNumeroElectrodos">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNumeroElectrodos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xba; Electrodos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLineaPrincipal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;nea Principal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLineaPrincipalUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;mm\u00B2 - Cu&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxTipo">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="0"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="jComboBoxTipoItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtLineaPrincipal">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLineaEnlaceUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;mm\u00B2 - Cu&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtLineaEnlace">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelLineaEnlace">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xed;nea de enlace"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelOhmios">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Ohmios"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtOhmios">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelOhmiosUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="&quot;\u2126&quot;" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldReferencia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReferencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Referencia"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

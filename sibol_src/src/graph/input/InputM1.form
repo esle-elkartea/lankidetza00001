@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMousePressed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="87" max="-2" attributes="0"/>
+                      <Component id="jTextFieldReferencia" pref="129" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelPoderDeCorte" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelNumeroPolos" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelReferencia" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jLabelCalibre" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabelCurva" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jTxtPoderDeCorte" max="32767" attributes="1"/>
+                          <Component id="jComboBoxCurva" alignment="0" max="32767" attributes="1"/>
+                          <Group type="102" alignment="0" attributes="1">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jComboBoxCalibre" max="32767" attributes="1"/>
+                          </Group>
+                          <Component id="jComboBoxNumeroPolos" alignment="0" min="-2" pref="76" max="-2" attributes="1"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabelPoderDeCorteUnidad" min="-2" max="-2" attributes="1"/>
+                          <Component id="jLabelNumeroPolosUnidad" min="-2" pref="49" max="-2" attributes="1"/>
+                          <Component id="jLabelCalibreUnidad" pref="49" max="32767" attributes="1"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace pref="145" max="32767" attributes="0"/>
+                      <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelNumeroPolos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelNumeroPolosUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxNumeroPolos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelCalibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxCalibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelCalibreUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelCurva" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxCurva" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelPoderDeCorte" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTxtPoderDeCorte" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelPoderDeCorteUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabelNumeroPolos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xba; Polos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNumeroPolosUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="P"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCalibre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calibre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCalibreUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCurva">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Curva"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPoderDeCorte">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Poder de Corte"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTxtPoderDeCorte">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxNumeroPolos">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="2"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelPoderDeCorteUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="KA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxCalibre">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="16">
+            <StringItem index="0" value="1,5"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="5"/>
+            <StringItem index="3" value="6"/>
+            <StringItem index="4" value="7,5"/>
+            <StringItem index="5" value="10"/>
+            <StringItem index="6" value="16"/>
+            <StringItem index="7" value="20"/>
+            <StringItem index="8" value="25"/>
+            <StringItem index="9" value="32"/>
+            <StringItem index="10" value="40"/>
+            <StringItem index="11" value="50"/>
+            <StringItem index="12" value="63"/>
+            <StringItem index="13" value="80"/>
+            <StringItem index="14" value="100"/>
+            <StringItem index="15" value="125"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxCurva">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="3">
+            <StringItem index="0" value="C"/>
+            <StringItem index="1" value="B"/>
+            <StringItem index="2" value="D"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldReferencia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReferencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Referencia"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

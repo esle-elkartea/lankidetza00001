@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Events>
+    <EventHandler event="mousePressed" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="formMousePressed"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabelNumeroPolos" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelReferencia" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabelCalibre" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jComboBoxNumeroPolos" alignment="0" max="32767" attributes="1"/>
+                                  <Component id="jComboBoxCalibre" alignment="0" min="-2" pref="88" max="-2" attributes="1"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jLabelCalibreUnidad" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jTextFieldReferencia" alignment="0" pref="128" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jBtnAceptar" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jTextFieldReferencia" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelNumeroPolos" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxNumeroPolos" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabelCalibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jComboBoxCalibre" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabelCalibreUnidad" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jBtnAceptar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jBtnAceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Aceptar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jBtnAceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelNumeroPolos">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="N&#xba; Polos"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCalibre">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Calibre"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelCalibreUnidad">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxNumeroPolos">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="2"/>
+            <StringItem index="1" value="3"/>
+            <StringItem index="2" value="3+N"/>
+            <StringItem index="3" value="4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="jComboBoxCalibre">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="18">
+            <StringItem index="0" value="0"/>
+            <StringItem index="1" value="0,5"/>
+            <StringItem index="2" value="1"/>
+            <StringItem index="3" value="2"/>
+            <StringItem index="4" value="3"/>
+            <StringItem index="5" value="4"/>
+            <StringItem index="6" value="6"/>
+            <StringItem index="7" value="10"/>
+            <StringItem index="8" value="16"/>
+            <StringItem index="9" value="20"/>
+            <StringItem index="10" value="25"/>
+            <StringItem index="11" value="32"/>
+            <StringItem index="12" value="40"/>
+            <StringItem index="13" value="50"/>
+            <StringItem index="14" value="63"/>
+            <StringItem index="15" value="80"/>
+            <StringItem index="16" value="100"/>
+            <StringItem index="17" value="125"/>
+          </StringArray>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="jTextFieldReferencia">
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabelReferencia">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Referencia"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

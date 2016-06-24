@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<shortcuts>
+	<skipIfNotSupported/>
+	<programGroup defaultName="SIBOL" location="applications||startMenu"/>
+		<shortcut
+			name="SIBOL"
+			programGroup="yes"
+			desktop="yes"
+			applications="no"
+			startMenu="yes"
+			startup="no"
+			target="$INSTALL_PATH/SIBOL.exe"
+			workingDirectory="$INSTALL_PATH"
+			commandLine=""
+			initialState="normal"
+			iconFile="$INSTALL_PATH/sibol.ico"
+			iconIndex="0"
+			description="Aplicación de Boletines de Instalaciones Eléctricas">
+			<createForPack name="SIBOL"/>
+		</shortcut>
+		<shortcut
+			name="Manual de Usuario"
+			programGroup="yes"
+			desktop="no"
+			applications="no"
+			startMenu="yes"
+			startup="no"
+			target="$INSTALL_PATH/Manual Usuario SIBOL.pdf"
+			workingDirectory="$INSTALL_PATH"
+			commandLine=""
+			initialState="normal"
+			iconFile=""
+			iconIndex="0"
+			description="Manual de Usuario de SIBOL">
+			<createForPack name="SIBOL"/>
+		</shortcut>
+		<shortcut
+			name="Desinstalar SIBOL"
+			programGroup="yes"
+			desktop="no"
+			applications="no"
+			startMenu="yes"
+			startup="no"
+			target="$INSTALL_PATH/Uninstaller/uninstaller.jar"
+			workingDirectory=""
+			commandLine=""
+			initialState="noShow"
+			iconFile="$INSTALL_PATH/desinstalar.ico"
+			iconIndex="0"
+			description="Desinstalar SIBOL del sistema">
+			<createForPack name="SIBOL" />
+		</shortcut>
+</shortcuts>
